@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
 
         }
 
-        //CheckResourceCost();
+        CheckResourceCost();
 
         CoinIcon.transform.localScale = Vector3.LerpUnclamped(CoinIcon.transform.localScale, Vector3.one * 2f, 0.15f);
 
